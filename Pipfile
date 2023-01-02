@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 jupyter = "*"
+web3 = "*"
+setuptools = "*"
 
 [dev-packages]
 
