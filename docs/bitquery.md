@@ -1,6 +1,6 @@
 # `bitquery`
 
-bitquery is a GraphQL API that can be used to get Ether data. Its usage can be found in [official documentation](https://graphql.bitquery.io/)
+bitquery is a GraphQL API that can be used to get Ether data. Its usage can be found in [official documentation](https://bitquery.io/)
 
 ## Usage
 
