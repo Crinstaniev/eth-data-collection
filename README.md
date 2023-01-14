@@ -34,3 +34,9 @@ ethereum2-etl is a Python Ethereum 2.0 data collection tool that can be used to 
 etherscan-python is a Python wrapper that can be used to connect to Etherscan and get Ether data. Its usage can be found in [official documentation](https://pypi.org/project/etherscan/)
 
 [Usage](docs/etherscan-python.md)
+
+## `bitquery`
+
+bitquery is a GraphQL API that can be used to get Ether data. Its usage can be found in [official documentation](https://graphql.bitquery.io/)
+
+[Usage](docs/bitquery.md)
