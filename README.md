@@ -17,12 +17,6 @@ Web3.py is a Python Ether API that can be used to connect to Ether nodes and get
 
 [Usage](docs/web3py.md)
 
-## `ethereum-etl`
-
-ethereum-etl is a Python Ether data collection tool that can be used to collect Ether data from the blockchain. Its usage can be found in [official documentation](https://ethereum-etl.readthedocs.io/en/latest/).
-
-[Usage](docs/ethereum-etl.md)
-
 ## `ethereum2-etl`
 
 ethereum2-etl is a Python Ethereum 2.0 data collection tool that can be used to collect Ethereum 2.0 data from the blockchain. Its usage can be found in [official documentation](https://ethereum2-etl.readthedocs.io/en/latest/).
