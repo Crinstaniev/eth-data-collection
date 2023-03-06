@@ -18,9 +18,9 @@ Web3.py is a Python library that allows interaction with Ethereum, typically use
 Ethereum 2.0 ETL enables the transformation of blockchain information into user-friendly formats, such as CSV and relational databases. With over 700 likes on Github, Ethereum ETL is the most highly-regarded open source project for Ethereum data. Ethereum 2.0 ETL is a fork of Ethereum ETL that adds support for Ethereum 2.0 data. 
 
 - [official documentation](https://ethereum2-etl.readthedocs.io/en/latest/).
-- [Detail](docs/ethereum2-etl.md)
 - [Sample Code]()
 - [Sample Data]()
+- [Read more](docs/ethereum2-etl.md)
 
 ## Part III `etherscan-python`
 
