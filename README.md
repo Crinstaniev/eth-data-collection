@@ -6,7 +6,7 @@ This article provides a tutorial on how to access Ethereum blockchain data throu
 
 Web3.py is a Python library that allows interaction with Ethereum, typically used in decentralized apps. It offers functionality for sending transactions, working with smart contracts, retrieving block information and more. The library's API was initially based on Web3.js (Javascript), but has been adapted to better suit the needs of Python developers. 
 
-- [official documentation](https://web3py.readthedocs.io/en/stable/)
+- [Official documentation](https://web3py.readthedocs.io/en/stable/)
 - [Detail](docs/web3py.md)
 - [Sample Code](https://github.com/sunshineluyao/eth-data-collection/blob/main/code/web3py.ipynb)
 - [Sample Data](https://github.com/sunshineluyao/eth-data-collection/blob/main/data/web3py_blocks.csv)
