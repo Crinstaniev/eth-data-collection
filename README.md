@@ -40,6 +40,8 @@ Ethereum2-ETL enables the transformation of blockchain information into user-fri
 Bitquery is a GraphQL API that provides a flexible and efficient way to access and analyze blockchain data. By using GraphQL, Bitquery enables users to query only the data they need, rather than receiving a large amount of unneeded data. This results in faster, more streamlined access to blockchain data, and improved performance overall. 
 
 - [official documentation](https://bitquery.io/)
-- [Sample Code]()
-- [Sample Data]()
+- [Sample Code](https://github.com/sunshineluyao/eth-data-collection/blob/main/code/Bitquery.ipynb)
+- [Sample Data](https://github.com/sunshineluyao/eth-data-collection/blob/main/data/Bitquery_Ethereum_deposit.csv)
 - [Read more](docs/bitquery.md)
+
+![](./figures/Bitquery_deposit.png)
