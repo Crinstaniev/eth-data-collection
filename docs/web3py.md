@@ -1,6 +1,10 @@
 # `web3.py`
 
-Web3.py is a Python library that allows interaction with Ethereum, typically used in decentralized apps. It offers functionality for sending transactions, working with smart contracts, retrieving block information and more. The library's API was initially based on Web3.js (Javascript), but has been adapted to better suit the needs of Python developers. For further information, refer to the official documentation at https://web3py.readthedocs.io/en/stable/.
+Web3.py is a Python library that allows interaction with Ethereum, typically used in decentralized apps. It offers functionality for sending transactions, working with smart contracts, retrieving block information and more. The library's API was initially based on Web3.js (Javascript), but has been adapted to better suit the needs of Python developers. 
+
+- [Official documentation](https://web3py.readthedocs.io/en/stable/)
+- [Sample Code](https://github.com/sunshineluyao/eth-data-collection/blob/main/code/web3py.ipynb)
+- [Sample Data](https://github.com/sunshineluyao/eth-data-collection/blob/main/data/web3py_blocks.csv)
 
 ## Requirements
 
@@ -12,7 +16,7 @@ Web3.py is a Python library that allows interaction with Ethereum, typically use
 
 <!-- endpoint? -->
 
-Collecting on-chain data using `web3.py` requires an Ethereum endpoint. Best way is to use remote node provider, like [Infura](https://infura.io/), [Alchemy](https://www.alchemy.com/), or [QuickNode](https://www.quicknode.com/). [This document](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/) explains how to run a local node or get a remote node.
+Collecting on-chain data using `web3.py` requires an Ethereum endpoint. The best way is to use a remote node provider such as [Infura](https://infura.io/), [Alchemy](https://www.alchemy.com/), or [QuickNode](https://www.quicknode.com/). 
 
 <!-- API Type? -->
 <!-- Customization? -->
@@ -101,5 +105,5 @@ print("Balance of address", address, ":", balance)
 
 This code connects to a local Ethereum node using the WebsocketProvider and checks if it is connected. Then, it retrieves the latest block number, retrieves the details of that block, and gets the balance of a specific Ethereum address.
 
-More example usage of `web3.py` can be found in the [examples](../examples/web3py.ipynb)
+
 
