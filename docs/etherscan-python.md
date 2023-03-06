@@ -2,6 +2,10 @@
 
 `etherscan-python` is a comprehensive Python API for [Etherscan.io](https://etherscan.io/).  It offers both the standard and pro endpoints for the mainnet of the Ethereum blockchain as well as that of the Kovan, Rinkeby, and Ropsten testnets. The API can be found on [PyPI](https://pypi.org/project/etherscan-python/) and is powered by the [Etherscan.io APIs](https://etherscan.io/apis#misc). 
 
+- [official documentation](https://github.com/pcko1/etherscan-python).
+- [Sample Code](https://github.com/sunshineluyao/eth-data-collection/blob/main/code/etherscan_python.ipynb)
+- [Sample Data](https://github.com/sunshineluyao/eth-data-collection/blob/main/data/etherscan_rewards.csv)
+
 ## Requirements
 
 ### Installation
