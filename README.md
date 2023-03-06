@@ -1,6 +1,6 @@
 # Access Ethereum Blockchain Data: A Comparative Tutorial of Web3.py, Ethereum2-ETL, Etherscan-python, and Bigquery
 
-This repo collects some open source data sources for Ether, and gives a brief introduction to their usage and data formats. It is worth noting that this repo is not a complete data source, but a collection of data sources, so if you want to get the complete data, you need to implement the data collection by yourself. And, for the sake of generality, the repo only includes data sources with Python as the main development language and some web API. Other data sources will be added in subsequent updates.
+This article provides a tutorial on how to access Ethereum blockchain data through four tools Web3.py, Ethereum2-ETL, Etherscan-python, and Bigquery.
 
 ## Part I `Web3py`
 
