@@ -17,8 +17,9 @@ Web3.py is a Python library that allows interaction with Ethereum, typically use
 
 Ethereum 2.0 ETL enables the transformation of blockchain information into user-friendly formats, such as CSV and relational databases. With over 700 likes on Github, Ethereum ETL is the most highly-regarded open source project for Ethereum data. Ethereum 2.0 ETL is a fork of Ethereum ETL that adds support for Ethereum 2.0 data. 
 
-- [Official documentation](https://ethereum2-etl.readthedocs.io/en/latest/).
-
+- [Official documentation](https://ethereum2-etl.readthedocs.io/en/latest/)
+- [Sample Code]()
+- [Sample Data]()
 - [Read more](docs/ethereum2-etl.md)
 
 ## Part III `etherscan-python`
@@ -29,6 +30,7 @@ Ethereum 2.0 ETL enables the transformation of blockchain information into user-
 - [Sample Code](https://github.com/sunshineluyao/eth-data-collection/blob/main/code/etherscan_python.ipynb)
 - [Sample Data](https://github.com/sunshineluyao/eth-data-collection/blob/main/data/etherscan_rewards.csv)
 - [Read more](docs/etherscan-python.md)
+
 ![](./figures/Etherscan_rewards.png)
 
 ## Part IV `bitquery`
@@ -36,6 +38,6 @@ Ethereum 2.0 ETL enables the transformation of blockchain information into user-
 Bitquery is a GraphQL API that provides a flexible and efficient way to access and analyze blockchain data. By using GraphQL, Bitquery enables users to query only the data they need, rather than receiving a large amount of unneeded data. This results in faster, more streamlined access to blockchain data, and improved performance overall. 
 
 - [official documentation](https://bitquery.io/)
-- [Detail](docs/bitquery.md)
 - [Sample Code]()
 - [Sample Data]()
+- [Read more](docs/bitquery.md)
