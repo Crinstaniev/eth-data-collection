@@ -8,8 +8,10 @@ Web3.py is a Python library that allows interaction with Ethereum, typically use
 
 - [official documentation](https://web3py.readthedocs.io/en/stable/)
 - [Detail](docs/web3py.md)
-- [Sample Code]()
-- [Sample Data]()
+- [Sample Code](https://github.com/sunshineluyao/eth-data-collection/blob/main/code/web3py.ipynb)
+- [Sample Data](https://github.com/sunshineluyao/eth-data-collection/blob/main/data/web3py_blocks.csv)
+
+![](./figures/Web3py_blocks.png)
 
 ## Part II `ethereum2-etl`
 
