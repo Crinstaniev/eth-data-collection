@@ -17,9 +17,8 @@ Web3.py is a Python library that allows interaction with Ethereum, typically use
 
 Ethereum 2.0 ETL enables the transformation of blockchain information into user-friendly formats, such as CSV and relational databases. With over 700 likes on Github, Ethereum ETL is the most highly-regarded open source project for Ethereum data. Ethereum 2.0 ETL is a fork of Ethereum ETL that adds support for Ethereum 2.0 data. 
 
-- [official documentation](https://ethereum2-etl.readthedocs.io/en/latest/).
-- [Sample Code]()
-- [Sample Data]()
+- [Official documentation](https://ethereum2-etl.readthedocs.io/en/latest/).
+
 - [Read more](docs/ethereum2-etl.md)
 
 ## Part III `etherscan-python`
@@ -27,9 +26,10 @@ Ethereum 2.0 ETL enables the transformation of blockchain information into user-
 `etherscan-python` is a comprehensive Python API for [Etherscan.io](https://etherscan.io/) that is minimal yet complete. It offers all of the standard and pro endpoints, and also supports the Kovan, Rinkeby, and Ropsten testnets. The API can be found on [PyPI](https://pypi.org/project/etherscan-python/) and is powered by the [Etherscan.io APIs](https://etherscan.io/apis#misc).
 
 - [official documentation](https://github.com/pcko1/etherscan-python).
-- [Detail](docs/etherscan-python.md)
-- [Sample Code]()
-- [Sample Data]()
+- [Sample Code](https://github.com/sunshineluyao/eth-data-collection/blob/main/code/etherscan_python.ipynb)
+- [Sample Data](https://github.com/sunshineluyao/eth-data-collection/blob/main/data/etherscan_rewards.csv)
+- [Read more](docs/etherscan-python.md)
+![](./figures/Etherscan_rewards.png)
 
 ## Part IV `bitquery`
 
