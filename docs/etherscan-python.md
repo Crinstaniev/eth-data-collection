@@ -1,6 +1,6 @@
 # `etherscan-python`
 
-`etherscan-python` is a comprehensive Python API for [Etherscan.io](https://etherscan.io/) that is minimal yet complete. It offers all of the standard and pro endpoints, and also supports the Kovan, Rinkeby, and Ropsten testnets. The API can be found on [PyPI](https://pypi.org/project/etherscan-python/) and is powered by the [Etherscan.io APIs](https://etherscan.io/apis#misc). More information can be found in [official documentation](https://github.com/pcko1/etherscan-python).
+`etherscan-python` is a comprehensive Python API for [Etherscan.io](https://etherscan.io/).  It offers both the standard and pro endpoints for the mainnet of the Ethereum blockchain as well as that of the Kovan, Rinkeby, and Ropsten testnets. The API can be found on [PyPI](https://pypi.org/project/etherscan-python/) and is powered by the [Etherscan.io APIs](https://etherscan.io/apis#misc). 
 
 ## Requirements
 
@@ -64,4 +64,3 @@ df_blocks.show()
 
 The example initializes an Etherscan object with an API key, and then retrieves the block rewards for 100 blocks (from block 1000000 to 1000100) using the get_block_reward_by_block_number method of the Etherscan object. The block rewards are stored in a list, which is then converted into a pandas dataframe. The dataframe is then displayed.
 
-You can also find usage example and some visualization in [Example](../examples/etherscan-python.ipynb)
