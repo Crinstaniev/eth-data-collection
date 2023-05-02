@@ -1,6 +1,10 @@
 # `bitquery`
 
-Bitquery is a GraphQL API that provides a flexible and efficient way to access and analyze blockchain data. By using GraphQL, Bitquery enables users to query only the data they need, rather than receiving a large amount of unneeded data. This results in faster, more streamlined access to blockchain data, and improved performance overall. More information can be found in the [official documentation](https://bitquery.io/)
+Bitquery is a GraphQL API that provides a flexible and efficient way to access and analyze blockchain data. By using GraphQL, Bitquery enables users to query only the data they need, rather than receiving a large amount of unneeded data. This results in faster, more streamlined access to blockchain data, and improved performance overall. 
+
+- [official documentation](https://bitquery.io/)
+- [Sample Code](https://github.com/sunshineluyao/eth-data-collection/blob/main/code/Bitquery.ipynb)
+- [Sample Data](https://github.com/sunshineluyao/eth-data-collection/blob/main/data/Bitquery_Ethereum_deposit.csv)
 
 ## Requirements
 
@@ -8,7 +12,7 @@ Any GraphQL client can be used to access Bitquery. Using `requests` library in P
 
 ### Knowledge of GraphQL
 
-GraphQL is a query language and runtime for APIs. It was developed and open-sourced by Facebook as an alternative to REST APIs. GraphQL allows for more efficient and flexible communication between the client and server, as the client can specify exactly the data it needs, rather than the server determining what data to send. This results in less over- or under-fetching of data, and improved performance compared to REST. GraphQL is used by many companies and organizations as a modern approach to API development.
+GraphQL is a query language and runtime for APIs. It was developed and open-sourced by Facebook as an alternative to REST APIs. GraphQL allows for more efficient and flexible communication between the client and server, as the client can specify the data as exactly needed, rather than the server determining what data to send. This approach results in less over- or under-fetching of data, and improved performance compared to REST API. GraphQL api has been adopted by many companies and organizations as a modern approach to API development.
 
 Here is a [tutorial](https://graphql.org/learn/) for GraphQL.
 
@@ -40,4 +44,3 @@ Alternatively, you can use `curl` to directly query the API with your API key.
 curl -X POST -H "Content-Type: application/json" -H "X-API-KEY: <your api key>" --data '{"query":"{ ethereum { transfers { date { date } count amount } } }"}' https://graphql.bitquery.io/
 ```
 
-You can also find usage example and some visualization in [Example](../examples/bitquery.ipynb)
